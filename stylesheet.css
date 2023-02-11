@@ -1,0 +1,72 @@
+body {
+    background-color: green;
+}
+
+
+
+#timer button {
+    width: 70px;
+    background-color: purple;
+    color: orange;
+    border-radius: 5px;
+}
+
+#timer p {
+    color: white;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    padding: 5px;
+}
+
+#timer {
+    width: 12%;
+    text-align: center;
+}
+
+.Hour {
+    display: inline-block;
+}
+
+.Min {
+    display: inline-block;
+}
+
+.Sec {
+    display: inline-block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix button {
+    width: 12%;
+    background-color: yellow;
+    color: red;
+    border-radius: 10px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    border-color: green;
+    border-width: 3px;
+    border-style: dashed;
+    background-color:aqua;
+}

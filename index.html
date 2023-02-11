@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Justin's Timer Web App</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="timer">
+        <div class="Hour">
+            <button onclick="hourUp()">up</button>
+            <p id="hour">0</p>
+            <button onclick="hourDown()">down</button>
+            <p>H</p>
+        </div>
+        <div class="Min">
+            <button onclick="minUp()">up</button>
+            <p id="min">0</p>
+            <button onclick="minDown()">down</button>
+            <p>M</p>
+        </div>
+        <div class="Sec">
+            <button onclick="secUp()">up</button>
+            <p id="sec">0</p>
+            <button onclick="secDown()">down</button>
+            <p>S</p>
+        </div>
+    </div>
+    <div class="clearfix">
+        <button onclick="startTimer()">START TIMER</button>
+
+
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <p>Time's up!</p>
+                <button onclick="closeModal()">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
